@@ -273,7 +273,7 @@ section {
 }
 
 .courses .swiper-slide img {
-    height: 25rem;
+    height: 29rem;
     width: 100%;
 }
 
@@ -300,13 +300,15 @@ section {
 
 .teachers .slide {
     position: relative;
-    width: 40rem;
+    width: 30rem;
+    /* height: 40rem; */
     overflow: hidden;
+    /* transition: background-color 0.6s ease; */
     margin-bottom: 4rem;
 }
 
 .teachers .slide img {
-    height: 55rem;
+    height: 40rem;
     width: 100%;
     object-fit: cover;
     border-radius: .5rem;
@@ -355,7 +357,7 @@ section {
 }
 
 .album .slide img {
-    height: 55rem;
+    height: 40rem;
     width: 100%;
     object-fit: cover;
     border-radius: .5rem
@@ -561,6 +563,13 @@ footer {
         transform: rotate(180deg);
     }
 
+    .teachers .slide img {
+        height: 40rem;
+        /* width: 100%; */
+        /* object-fit: cover; */
+        overflow: auto;
+        border-radius: .5rem;
+    }
 
 
     .header .flex .navbar {
@@ -642,7 +651,7 @@ footer {
             left: 0
         }
     }
-   
+
 }
 
 
